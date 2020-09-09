@@ -1,0 +1,14 @@
+mkdir basic_repo
+cd basic_repo/
+git init
+git remote add origin https://github.com/cmlebron14/basic_repo.git
+touch index.html
+touch styles.css
+git add index.html
+git add styles.css
+git commit -m "Add new files"
+git push --set-upstream origin master
+git add index.html
+git add styles.css
+git commit -m "Edit styles"
+git push
